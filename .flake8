@@ -1,0 +1,10 @@
+[flake8]
+application_import_names = logits
+exclude =
+    .git,
+    __pycache__,
+    .mypy_cache,
+    .pytest_cache,
+    venv,
+    htmlcov
+requirements-file = requirements.txt
